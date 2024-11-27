@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1</title>
+    <link rel="stylesheet" href="./estilo.css"/>
+</head>
+<body>
+    <img src="IAT-LOGOTIPO.jpg" alt="alan turing"/>
+
+<form action="/action_page.php">
+
+    <fieldset>
+
+        <legend>Nueva incidencia</legend>
+
+        <label for="prof">Profesor *: </label>
+        <input required placeholder="Escribe tu nombre aqui."
+        id="prof" name="prof" type="text" maxlength="50"/>
+
+        <br>
+        
+        <label for="email"> Correo electrónico *: </label>
+        <input required placeholder="Escribe tu correo aqui."
+        id="email" name="email" type="text" maxlength="50"/>
+        
+        <br>
+
+        <label for="departamento">Departamento *: </label>
+        <select id="deparamento" name="departamento">
+            <option value="informática">Informática</option>
+            <option value="RRHH">RRHH</option>
+            <option value="contabilidad">Contabilidad</option>
+            <option value="ventas">Ventas</option>
+
+        </select>
+
+        <br>
+
+        <label for ="aula">Aula *: </label>
+        <input required placeholder="Escribe aqui el aula de la i"
+        id="aula" name="aula" type="text" maxlength="50"/>
+
+        <br>
+
+        <label for="dia">Día de la incidencia *: </label>
+        <input type="date" id="dia" name="dia">
+
+        <br>
+
+        <label for="hora">Hora de la incidencia *: </label>
+        <input type="time" id="hora" name="hora">
+
+        <br>
+        <label for="descripcion">Descripción de la incidencia *: </label>
+        <textarea name="message"></textarea>
+
+        <br>
+        <label for="imagen">Imagen de la incidencia (opcional)</label>
+        <input type="file" value="Seleccionar imagen">
+
+        <br>
+
+    <input type="submit" value="Enviar incidencia">
+    <input type="reset" value="Borrar formulario">
+
+    </fieldset>
+
+</form>
+
+<footer>
+
+<h3>Síguenos</h3>
+<img id="redes" src="./icons8-facebook-48.png" alt="facebook"/>
+<img id="redes" src="icons8-twitter-48.png" alt="twitter"/>
+<img id="redes" src="icons8-instagram-48.png" alt="instagam" />
+<img id="redes" src="icons8-youtube-48.png" alt="youtbe" />
+<img id="redes" src="icons8-website-48.png" alt="website" />
+
+</footer>
+
+</body>
+</html>

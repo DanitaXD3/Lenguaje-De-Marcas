@@ -1,0 +1,55 @@
+h1 {
+    text-align:center;
+    color:blue;
+    font-size: 30px;
+}
+img {
+    width: 178px;
+    height: 147px;
+}
+
+table {
+
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+th{
+    background-color: #666;
+    color:white;
+}
+
+h4{
+    text-align:center;
+}
+
+.facebook{
+    background: linear-gradient(orange, blue);
+}
+
+.instagram{
+    background: linear-gradient(orange, purple);
+}
+
+.linkedin{
+    background: linear-gradient(blue, cyan);
+}
+
+.snapchat{
+    background: linear-gradient(purple,yellow);
+}
+
+.twitter{
+    background: linear-gradient(cyan, lime);
+}
+
+.whatsapp{
+    background: linear-gradient(yellow,lime);
+}
