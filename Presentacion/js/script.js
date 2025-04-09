@@ -14,11 +14,42 @@ profileImage.addEventListener('mouseout', () => {
 
 var changeNameColorButton= document.getElementById('botonNombre');
 var fullNameH1 = document.getElementById('fullName');
+const Name = fullNameH1.textContent;
 
 changeNameColorButton.addEventListener('click', () => {
     
     console.warn("click -------");
     alert("Ahora el nombre va a cambiar de color");
-    fullNameH1.style = "color: red; font-style: italic";
+    if(fullNameH1.style.color===""){
+        fullNameH1.style="color: purple; font-style: italic;";
+        fullNameH1.textContent="1º DAW";
+    }else {
+        fullNameH1.style="";
+        fullNameH1.textContent=Name;
+    }
+
+
     
+});
+
+var ocultarNombre = document.getElementById('ocultar')
+ocultarNombre.addEventListener('click', () => {
+    if(fullNameH1.style.display==="none"){
+        fullNameH1.style.display="block";
+    } else {
+        fullNameH1.style.display="none";
+    }
+
+});
+
+var mostrarFormu = document.getElementById('boton')
+mostrarFormu.addEventListener('click', () => {
+    if(contactForm.style.display==="none"){
+        contactForm.style.display="block";
+        boton.textContent ="Hide Form"
+    } else {
+        contactForm.style.display="none";
+        boton.textContent="Show Form"
+    }
+
 });
