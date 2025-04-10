@@ -13,3 +13,8 @@ h1 {
     letter-spacing: 10px;
     margin-bottom: 30px;
 }
+
+h2 {
+    color: white;
+    background-color: blue;
+}
