@@ -1,0 +1,22 @@
+{
+    "localidad": "Álora",
+    "provincia": "Málaga",
+    "bares": [
+    {
+        "nombre": "Bar El Encuentro",
+        "direccion": "Calle Carmona, 10",
+        "especialidad": "Tapas caseras y vinos locales"
+    },
+    {
+        "nombre": "Bar La Parada",
+        "direccion": "Plaza Fuente Arriba, 1",
+        "especialidad": "Desayunos andaluces y cerveza fría"
+    },
+    {
+        "nombre": "Taberna Caña y Tapita",
+        "direccion": "Calle Veracruz, 5",
+        "especialidad": "Caña + tapa tradicional"
+    }
+    
+    ]
+}

@@ -53,3 +53,12 @@ mostrarFormu.addEventListener('click', () => {
     }
 
 });
+
+let fps = ["Dibujar","Videojuegos","Música"];
+
+let orderListEl=document.getElementById("order_list");
+for(var i=0; i<fps.length; i++){
+    let li = document.createElement("li");
+    li.innerText = fps[i];
+    orderListEl.appendChild(li);
+}
